@@ -1,0 +1,36 @@
+@charset "UTF-8";
+/* CSS Document */
+.body404 {max-width: 1600px; width: auto; margin:auto; position: relative; display: block;}
+
+
+.texto404 {text-align: center}
+.error{font-size: 35px; background-color: azure; border-radius: 20px; margin:auto; border: 60px; width: 50%; text-align: center }
+.inicio{ transition: 2s all 0s ease;  text-align: center}
+.inicio:hover{ background-color: #615FEF; border-radius: 30%; }
+.inicio:active{ background-color: darkgrey; box-shadow: white 10px 10px 0px; }
+
+@keyframes gif_imagen {
+	
+	100%{ transform: translateX(1100px);}
+	
+}
+.gif_imagen {width: 30%; border-radius: 500px; animation-name: gif_imagen; animation-duration: 5s; animation-iteration-count: infinite; animation-timing-function: ease-in-out; animation-direction: alternate; animation-delay: 1.5s;}
+	
+@keyframes latido1{
+	
+	0%{transform: scale(1);}
+	50%{transform: scale(1.2); background-color: white}
+	100%{transform: scale(1);}
+}
+h2{ 
+animation-name: latido1;
+animation-duration: 2s;
+}
+
+body{
+	background-image: url("imagenes/fondo.png");
+}
+
+
+
+
